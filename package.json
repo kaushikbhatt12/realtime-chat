@@ -1,0 +1,27 @@
+{
+  "name": "realchat",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.17.4"
+  },
+  "description": "",
+  "main": "server.js",
+ 
+ "scripts": {
+    "start": "node backend/server.js",
+    "heroku-postbuild":"cd frontend && npm install && npm run build"
+  },
+  "author": "kaushik",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.16",
+    "react-notification-badge": "^1.5.1",
+    "socket.io": "^4.5.1"
+  }
+}
