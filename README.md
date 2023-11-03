@@ -6,3 +6,6 @@ It uses socket.io to chat in real time.
 
 
 DEMO - https://chitchat-bq5w.onrender.com/
+
+![image](https://github.com/kaushikbhatt12/realtime-chat/assets/82044181/2d0e2129-36a9-4185-aad6-9fd948e99c7f)
+
