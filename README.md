@@ -1,11 +1,17 @@
 # realtime-chat
-A website to chat in realtime with anyone.
-The user can just create an account and then search for the person he/she wants to chat with and then start the chat.
-It also has user authorization.It uses MERN . User can also set any profile picture for his account.
-It uses socket.io to chat in real time.
+
+A MERN (Mongodb , Express , React js , Node js ) based application where we can chat in realtime . It uses socket.io to enable realtime communication . 
+
+Features - 
+1) User login and signup ( uses JWT and Mongodb to store user data)
+2) Individual Chats
+3) Group Chats ( create group chats , remove users from group chat , add members )
+4) Notifications for the realtime chats
+5) Search user functionality
+6) User modal showing information about a particular user
 
 
-DEMO - https://chitchat-bq5w.onrender.com/
+
 
 ![image](https://github.com/kaushikbhatt12/realtime-chat/assets/82044181/2d0e2129-36a9-4185-aad6-9fd948e99c7f)
 
@@ -22,6 +28,8 @@ DEMO - https://chitchat-bq5w.onrender.com/
 
 
 ![image](https://github.com/kaushikbhatt12/realtime-chat/assets/82044181/e3024c41-3f26-45e2-8f94-3c6b2965469a)
+
+DEMO - https://chitchat-bq5w.onrender.com/
 
 
 
